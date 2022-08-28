@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <fieldset>
+        <form >
+            <label for="title">Title: </label>
+            <input type="text" name="title" id="title">
+
+            <label for="author">Author</label>
+            <input type="text" name="author" id="author">
+
+            <label for="pages">Number of Pages</label>
+            <input type="number" name="pages" id="pages">
+
+            <label for="read-status">Has this book been read?</label>
+            <input type="checkbox" name="yes" id="yes">Yes
+            <input type="checkbox" name="no" id="no">No
+            <input type="checkbox" name="current" id="current">Currently Reading
+
+            <button type="submit">Add Book</button>
+        </form>
+    </fieldset>
+
+        <div class="book-container">
+            Example: "The Cat in the Hat" by Dr.Seuss
+        </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
